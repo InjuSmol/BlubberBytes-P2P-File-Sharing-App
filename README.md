@@ -1,6 +1,12 @@
 # BlubberBytes
 
-**BlubberBytes** is a distributed file-sharing and HTTP proxy tool that allows users to share files by hash, share files by link, be and use a proxy, and more. It uses btcd and btcwallet for transactions that act as monetary incentives.
+**BlubberBytes** This project implements a decentralized file-sharing and HTTP/HTTPS proxy application with a user-friendly
+client-side interface. The primary goal is to develop a distributed system that enables seamless peer-to-peer file
+sharing and HTTP proxy connectivity among connected nodes. The application has two core functionalities: file
+sharing by hash and an HTTP proxy, which distributes and accesses shared content within the network.
+Additionally, the project includes features, such as turning nodes into public HTTP gateways for file access and
+supporting the ability to check the shared files of random neighbor nodes.
+/var/folders/32/8262d8mj1k3_8mn4ljx3_6m80000gn/T/TemporaryItems/NSIRD_screencaptureui_1XGB0H/Screenshot 2025-01-21 at 9.57.12 PM.png
 
 ## Prerequisites
 
