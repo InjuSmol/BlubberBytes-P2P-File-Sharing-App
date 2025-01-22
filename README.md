@@ -81,8 +81,13 @@ If the server is running, you can go to http://localhost:3001/generate to genera
 ## Contrubuters:
 
 Daniel Liang
+
 Jazz Kaur
+
 John Roedel
+
 Qilong Ren 
+
 Sahibjot Bhullar
+
 Varvara Smolianova
