@@ -6,7 +6,8 @@ sharing and HTTP proxy connectivity among connected nodes. The application has t
 sharing by hash and an HTTP proxy, which distributes and accesses shared content within the network.
 Additionally, the project includes features, such as turning nodes into public HTTP gateways for file access and
 supporting the ability to check the shared files of random neighbor nodes.
-/var/folders/32/8262d8mj1k3_8mn4ljx3_6m80000gn/T/TemporaryItems/NSIRD_screencaptureui_1XGB0H/Screenshot 2025-01-21 at 9.57.12 PM.png
+
+<img width="759" alt="Screenshot 2025-01-21 at 9 59 23 PM" src="https://github.com/user-attachments/assets/55e03f7f-0076-465c-abb5-061c65aef870" />
 
 ## Prerequisites
 
