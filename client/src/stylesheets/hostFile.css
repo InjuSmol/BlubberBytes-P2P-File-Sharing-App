@@ -1,0 +1,296 @@
+#label-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#popup-border {
+    position: relative;
+}
+
+#popup-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#input-price {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.popup-content {
+    min-width: fit-content;
+    width: 420px;
+    padding: 20px;
+    background-color: var(--color-theme); /* Using global variable */
+    border-radius: 10px;
+}
+  
+.popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.host-button {
+    border: 2px solid gray; 
+    border-radius: 8px; 
+    background-color: rgb(32, 176, 201);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.trans {
+    margin: 0px;
+}
+  
+.host-button:hover {
+    background-color: rgb(127, 190, 201);
+    border-color: darkgray;
+}
+  
+.host-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.5); 
+}
+
+#file-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#file-name {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+} 
+
+.required {
+    color: lightcoral;
+}
+
+.errors {
+    color: lightcoral;
+    font-style: italic;
+}
+
+.file-metadata {
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 16px; 
+    background-color: white; 
+    margin: 20px auto; 
+}
+
+.file-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.file-info span {
+    margin: 4px 0; 
+}
+
+.file-price {
+    border-top: 1px solid #ccc; 
+    padding-top: 8px;
+    font-size: 1.2em; 
+    color: #007bff; 
+}
+
+.file-price-t {
+    border-bottom: 1px solid #ccc; 
+    padding-top: 8px;
+    font-size: 1.2em; 
+    color: #007bff;   
+}
+
+.meta-elem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta-elem-s {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.peer-table {
+    background: white;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.teeh {
+    background: lightgray;
+}
+
+.teedee {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.button-td {
+    border: none;
+}
+
+.prev {
+    text-align: left;
+}
+
+.next {
+    text-align: right;
+}
+
+.body-row:hover {
+    background-color: #bbb;
+}
+
+.peer-title {
+    text-align: center;
+}
+
+.selected {
+    background-color: lightgray !important;
+}
+
+.peer-error {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trans-peer-button {
+    float: right;
+}
+
+.ecks-button {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    background: none; 
+    border: none;    
+    padding: 0;     
+    cursor: pointer;
+    position: absolute;
+    /* left: 360px; */
+    right: 0px;
+    top: -20px;
+
+}
+
+.ecks-button-info {
+    position: absolute;
+    left: 380px;
+    top: 15px;
+}
+
+#bottom-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#info-box {
+    background-color: white;
+    border-radius: 8px;
+}
+
+#confirmation-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.increase-size {
+    padding: 15px;
+}
+
+.center-the-top {
+    text-align: center;
+}
+
+.table-containing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teehpad {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.confirmation-info-pad {
+    padding-right: 40px;
+}
+
+.confirmation-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#confirmation-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.warning-message {
+    color: red;
+}
+
+#clipboard-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.share-title {
+    align-self: center;
+}
+
+.copy-button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+}
+
+.copy-button-clicked {
+    background-color: var(--color-blue-active);
+}
+  
+.copy-holder {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clip-hr {
+    margin-right: 5px;
+    margin-left: 5px;
+}

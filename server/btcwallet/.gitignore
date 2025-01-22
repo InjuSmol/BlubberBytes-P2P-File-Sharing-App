@@ -1,0 +1,7 @@
+btcwallet
+vendor
+.idea
+coverage.txt
+*.swp
+.vscode
+btcwallet.exe

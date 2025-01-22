@@ -1,0 +1,62 @@
+/* Sidebar styling */
+.side-menu {
+    width: 15%;
+    flex-grow: 1;
+    background-color: var(--color-theme);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Center "Files" and host file button vertically on same line */
+#side-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#side-menu-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+/* Navigation item styling */
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #99D7FF;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Active item styling */
+.active-item {
+    background-color: #99D7FF;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Move text to the right */
+.nav-label {
+    margin-left: 10px;
+}
+
+/* Align extra icon to the right */
+.extraicon {
+    margin-left: auto;
+}
+
+/* Set color for status icon (will change with backend) */
+#status {
+    fill: green;
+}
+
+/* Change background color on hover */
+#refresh:hover {
+    background-color: rgb(99, 186, 236);
+}

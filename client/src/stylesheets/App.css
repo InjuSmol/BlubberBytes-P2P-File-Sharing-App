@@ -1,0 +1,76 @@
+:root {
+    /* base theme colors */
+    --color-theme: #ccebff;
+    --color-light-blue: #e1f5fe;
+    --color-text: #37474f;
+    --color-white: #ffffff;
+
+    /* accent colors */
+    --color-accent-blue: #b3e5fc;
+    --color-accent-mint: #a7ffeb;
+    --color-accent-coral: #ffb3b3;
+    --color-accent-shadow: rgba(0, 0, 0, 0.1);
+
+    /* functional colors */
+    --color-blue-active: #99D7FF;
+    --color-price-blue: #0093e9;
+
+    /* neutral colors */
+    --color-muted-gray: #b0bec5;
+    --color-light-gray: #dddddd;
+    --color-soft-gray: #eff0f0;
+
+    /* graph colors */
+    --color-graphA: rgba(75, 192, 192, 1);
+    --color-graphB: rgba(153, 102, 255, 0.6);
+    --color-graphC: rgba(255, 99, 132, 1);
+}
+
+body {
+    padding: 10px;
+    margin: 0px;
+    user-select: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 20px);
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.side-menu {
+    flex-basis: 17%;
+    margin-right: 15px;
+}
+
+.content {
+    flex-basis: 83%;
+}
+
+#settingscontent {
+    background-color: var(--color-theme);
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-height: 80vh;
+    overflow: hidden;
+    padding: 2vh 4% 2vh 4%;
+    width: 100%;
+}
+
+#settingscontent h1 {
+    margin: 0px;
+}
+
+.icon {
+    cursor: pointer;
+    border-radius: 8px;
+}

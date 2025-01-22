@@ -1,0 +1,12 @@
+# Client Side
+node_modules/
+build/
+
+# Server Side
+walletaddress.txt
+data.db
+data.db-shm
+data.db-wal
+
+# Hidden Files
+.DS_Store

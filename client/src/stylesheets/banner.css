@@ -1,0 +1,43 @@
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+#logo {
+    min-width: 150px;
+    width: 17%;
+    height: auto;
+}
+
+#profile-button {
+    width: 40px;
+    height: 40px;
+}
+
+#profile-button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.searchbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: var(--color-theme);
+}
+
+#searchbar {
+    all: unset;
+    height: 100%;
+    flex-grow: 1;
+}
