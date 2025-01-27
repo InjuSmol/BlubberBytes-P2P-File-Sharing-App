@@ -85,7 +85,7 @@ After completing the steps above, the GUI should open up automatically.
 
 If the server is running, you can go to http://localhost:3001/generate to generate/mine a block to gain coins. It will take some time before the server responds with the generated block.
 
-## Contrubuters:
+## Contributers:
 
 Daniel Liang
 
