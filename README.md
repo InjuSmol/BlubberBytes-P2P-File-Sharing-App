@@ -97,4 +97,4 @@ Qilong Ren
 
 Sahibjot Bhullar
 
-Varvara Smolianova
+Varia Smolianova
