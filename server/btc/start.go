@@ -1,19 +1,18 @@
-package btc
-
 import (
-	"database/sql"
-	"errors"
-	"fmt"
-	"os"
-	"os/exec"
-	"path/filepath"
+	"database/sql" // SQL database package
+	"errors"       // Standard error handling package
+	"fmt"          // For printing and scanning from stdin
+	"os"           // OS-level functions (file system, env, etc.)
+	"os/exec"      // For starting and controlling external processes
+	"path/filepath" // For building filesystem paths in a portable way
 
-	"server/database/operations"
+	"server/database/operations" // Your custom package for database operations
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/btcsuite/btcd/btcutil" // Bitcoin utility functions (path helpers, etc.)
+	"github.com/btcsuite/btcd/rpcclient" // Bitcoin RPC client (talk to btcd/btcwallet)
 )
 
+// Start starts Bitcoin-related services: btcd and btcwallet,
 func Start(net string, db *sql.DB, debug bool) (*exec.Cmd, *exec.Cmd, *rpcclient.Client, *rpcclient.Client, error) {
 	pubPassphrase := "public"
 	var privPassphrase string
