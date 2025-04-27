@@ -27,7 +27,7 @@ Follow these steps to set up and run the application locally:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/faefey/blubberbytes.git
+git clone https://github.com/injusmol/BlubberBytes-P2P-File-Sharing-App
 ```
 
 ### Step 2: Build Btcd and Btcwallet
